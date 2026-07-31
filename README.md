@@ -1,6 +1,6 @@
 # Morgan Pfaff — Personal Site
 
-Built with [Astro](https://astro.build). Four pages: Home, About, Projects, Contact.
+Built with [Astro](https://astro.build). Six pages: Home, About, Projects, Publications, Community, Contact.
 
 ## Run it locally
 
@@ -18,8 +18,11 @@ Then open the URL it prints (usually `http://localhost:4321`).
 - `src/pages/index.astro` — Home
 - `src/pages/about.astro` — About
 - `src/pages/projects.astro` — Projects
+- `src/pages/publications.astro` — Publications
+- `src/pages/community.astro` — Community
 - `src/pages/contact.astro` — Contact
 - `src/layouts/Layout.astro` — shared nav, footer, and all styling (colors, fonts, spacing)
+- `public/` — images used across the site (referenced as `/filename.jpg` in page files)
 
 Add a new page by creating a new `.astro` file in `src/pages/` and adding a link to the `nav` array in `Layout.astro`.
 
