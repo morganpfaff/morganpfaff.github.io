@@ -13,6 +13,8 @@ const nav = [
   { href: "/", label: "Home" },
   { href: "/about/", label: "About" },
   { href: "/projects/", label: "Projects" },
+  { href: "/publications/", label: "Publications" },
+  { href: "/community/", label: "Community" },
   { href: "/contact/", label: "Contact" },
 ];
 
@@ -283,6 +285,42 @@ const currentPath = Astro.url.pathname;
 
       em {
         color: var(--pink-600);
+        font-style: italic;
+      }
+
+      .pub-list {
+        list-style: none;
+        margin: 1rem 0 2rem;
+        padding: 0;
+      }
+
+      .pub-item {
+        padding: 0.9rem 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .pub-item:last-child {
+        border-bottom: none;
+      }
+
+      .pub-item p {
+        margin: 0.2rem 0 0;
+      }
+
+      .pub-title {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      .pub-meta {
+        color: var(--pink-600);
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+
+      .pub-note {
+        color: var(--ink-soft);
+        font-size: 0.85rem;
         font-style: italic;
       }
     </style>
