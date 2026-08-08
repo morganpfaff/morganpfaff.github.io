@@ -36,6 +36,6 @@ One-time setup on GitHub (already done for this site, listed here for reference)
 2. In the repo, go to **Settings → Pages**, and under "Build and deployment" set the source to **GitHub Actions**
 3. Push access requires a [Personal Access Token](https://github.com/settings/tokens) with both `repo` and `workflow` scopes (the `workflow` scope is specifically required because this repo's push touches a file inside `.github/workflows/`) — use the token in place of your password when Terminal prompts for one
 
-After that, any push to `main` triggers a new deploy automatically — check the repo's **Actions** tab to watch it run. Live site: `https://morganpfaff1.github.io`
+After that, any push to `main` triggers a new deploy automatically — check the repo's **Actions** tab to watch it run. Live site: `https://morganpfaff.github.io`
 
 If you'd rather use a custom domain later, you can add one under the same Pages settings — you'd just need to buy the domain separately (~$10–15/year) and point its DNS at GitHub.
