@@ -219,6 +219,13 @@ const socialImageURL = new URL("/social-preview.jpg", Astro.site);
         margin-top: 0;
       }
 
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        margin-bottom: 1rem;
+      }
+
       .pill {
         display: inline-block;
         background: var(--pink-100);
@@ -228,6 +235,10 @@ const socialImageURL = new URL("/social-preview.jpg", Astro.site);
         font-size: 0.85rem;
         font-weight: 600;
         margin-bottom: 1rem;
+      }
+
+      .pill-row .pill {
+        margin-bottom: 0;
       }
 
       .btn {
