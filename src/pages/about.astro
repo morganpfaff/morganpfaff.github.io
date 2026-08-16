@@ -53,12 +53,20 @@ import Layout from "../layouts/Layout.astro";
   <p>
     PhD, Bioengineering &mdash; University of California, Berkeley (2021&ndash;2026)
   </p>
-  <img
-    src="/morgan-berkeley-graduation.jpg"
-    alt="Morgan R. Pfaff in doctoral regalia on stage at her UC Berkeley PhD commencement"
-    class="card-img"
-    style="max-width: 50%; margin: 0 auto; display: block;"
-  />
+  <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+    <img
+      src="/morgan-berkeley-graduation.jpg"
+      alt="Morgan R. Pfaff in doctoral regalia on stage at her UC Berkeley PhD commencement"
+      class="card-img"
+      style="flex: 1 1 240px; max-width: calc(50% - 0.5rem);"
+    />
+    <img
+      src="/morgan-berkeley-family.jpg"
+      alt="Morgan R. Pfaff with her family after her UC Berkeley PhD commencement"
+      class="card-img"
+      style="flex: 1 1 240px; max-width: calc(50% - 0.5rem);"
+    />
+  </div>
   <p>
     BS, Biochemistry &mdash; Northeastern University (2016&ndash;2021)
   </p>
