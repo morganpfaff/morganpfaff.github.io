@@ -1,4 +1,4 @@
-# Morgan Pfaff — Personal Site
+# Morgan R. Pfaff — Personal Site
 
 Built with [Astro](https://astro.build). Six pages: Home, About, Projects, Publications, Community, Contact.
 
