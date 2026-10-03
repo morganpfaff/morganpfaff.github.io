@@ -135,7 +135,12 @@ const socialImageURL = new URL("/social-preview.jpg", Astro.site);
 
       .site-header {
         border-bottom: 1px solid var(--line);
-        background: var(--pink-50);
+        background-color: var(--pink-50);
+        background-image:
+          linear-gradient(rgba(255, 240, 246, 0.8), rgba(255, 240, 246, 0.8)),
+          url("/hydrogel-header.webp");
+        background-size: cover;
+        background-position: center;
       }
 
       .header-inner {
@@ -297,7 +302,12 @@ const socialImageURL = new URL("/social-preview.jpg", Astro.site);
 
       .site-footer {
         border-top: 1px solid var(--line);
-        background: var(--pink-50);
+        background-color: var(--pink-50);
+        background-image:
+          linear-gradient(rgba(255, 240, 246, 0.8), rgba(255, 240, 246, 0.8)),
+          url("/hydrogel-header.webp");
+        background-size: cover;
+        background-position: center;
       }
 
       .footer-inner {
