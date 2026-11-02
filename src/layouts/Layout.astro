@@ -49,8 +49,8 @@ const socialImageURL = new URL("/social-preview.jpg", Astro.site);
   <body>
     <header class="site-header">
       <div class="wrap header-inner">
-        <a class="brand" href="/">Morgan R. Pfaff, PhD</a>
-        <nav aria-label="Primary">
+        {currentPath !== "/" && <a class="brand" href="/">Morgan R. Pfaff, PhD</a>}
+        <nav aria-label="Primary" style="margin-left: auto;">
           <ul>
             {nav.map((item) => (
               <li>
